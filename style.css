@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
 body::before {
@@ -27,6 +27,7 @@ body::before {
 
 .main {
   width: 100%;
+  height: 100%;
   display: flex;
   height: 60vh;
   flex-direction: column;
@@ -36,7 +37,7 @@ body::before {
 nav {
   display: flex;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
   justify-content: space-between;
 }
 
@@ -52,7 +53,7 @@ nav ul li a {
   font-size: 18px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 1px;
+  /* padding: 1px; */
   transition: 0.2s;
 }
 .fa-bars {
@@ -87,7 +88,7 @@ nav ul li a:hover {
 }
 
 .my_name {
-  padding: 0px 4px;
+  /* padding: 0px 4px; */
   color: white;
   font-size: 40px;
   font-weight: bolder;
@@ -122,7 +123,7 @@ nav ul li a:hover {
 
 @media (max-width: 600px) {
   nav {
-    padding: 2px;
+    /* padding: 2px; */
   }
   .main {
     height: 40vh;
@@ -146,7 +147,7 @@ nav ul li a:hover {
 
 @media (max-width: 500px) {
   nav {
-    padding: 2px;
+    /* padding: 2px; */
   }
   .my_name {
     font-size: 25px;
@@ -160,7 +161,7 @@ nav ul li a:hover {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   display: none;
-  height: 100vh;
+  height: 100%;
   width: 40%;
   position: absolute;
   top: 0;
