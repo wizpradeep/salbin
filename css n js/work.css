@@ -1,0 +1,11 @@
+.work {
+  background-color: white;
+  height: 100%;
+  width: 98%;
+  position: absolute;
+  padding: 0px 10px;
+}
+.work h1 {
+  color: blue;
+  font-family: sans-serif;
+}

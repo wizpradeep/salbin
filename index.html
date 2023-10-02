@@ -5,7 +5,10 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css n js/style.css" />
+  <link rel="stylesheet" href="css n js/nav.css" />
+  <link rel="stylesheet" href="css n js/work.css" />
+
   <title></title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -13,34 +16,37 @@
 </head>
 
 <body>
+  <!-- =======start main page ============= -->
   <div class="main">
-    <nav>
-      <h1 class="H_name">
-        <span class="code_class">
-          <pre><code>&lt;/</code></pre>
-        </span>
-        <span style="color: red"> Salbin</span>
-        <span class="code_class">
-          <pre><code>&gt;</code></pre>
-        </span>
-      </h1>
-      <i class="fa-solid fa-2x fa-bars"></i>
-      <ul>
-        <li><a href="">Start</a></li>
-        <li><a href="">Work</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-      <div class="dropDown">
-        <div class="dropDownLink">
+    <div class="navigation">
+      <nav>
+        <h1 class="H_name">
+          <span class="code_class">
+            <pre><code>&lt;/</code></pre>
+          </span>
+          <span style="color: red"> Salbin</span>
+          <span class="code_class">
+            <pre><code>&gt;</code></pre>
+          </span>
+        </h1>
+        <i class="fa-solid fa-2x fa-bars"></i>
+        <ul>
           <li><a href="">Start</a></li>
           <li><a href="">Work</a></li>
           <li><a href="">About</a></li>
           <li><a href="">Contact</a></li>
+        </ul>
+        <div class="dropDown">
+          <div class="dropDownLink">
+            <li><a href="">Start</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </div>
+          <p id="close">close</p>
         </div>
-        <p id="close">close</p>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <div class="body">
       <div class="my_name">
         <div>
@@ -66,8 +72,17 @@
       </div>
     </div>
   </div>
-  <!-- ====== -->
-  <script src="script.js"></script>
+  <!-- =======end main page ============= -->
+
+  <!-- =======start of work page ============= -->
+
+  <div class="work" id="work">
+    <h1>My Works</h1>
+  </div>
+
+  <!-- ======================================================= -->
+
+  <script src="css n js/script.js"></script>
 </body>
 
 </html>
