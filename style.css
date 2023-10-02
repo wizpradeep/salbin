@@ -9,7 +9,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  position: fixed;
 }
 
 body::before {
@@ -165,9 +164,9 @@ nav ul li a:hover {
   width: 40%;
   position: absolute;
   top: 0;
+  right: 0;
   z-index: 2;
   background-color: #333;
-  right: 0;
 }
 .dropDown a {
   color: white;
