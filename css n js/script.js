@@ -29,3 +29,10 @@ closeBtn.addEventListener("click", () => {
   dropDown.style.display = "none";
   bar.style.display = "block";
 });
+
+const fybtn = document.getElementById("fybtn");
+const fyaudio = document.getElementById("fyaudio");
+
+fybtn.addEventListener("click", function () {
+  fyaudio.play();
+});

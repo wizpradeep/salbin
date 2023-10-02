@@ -4,8 +4,25 @@
   width: 98%;
   position: absolute;
   padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .work h1 {
   color: blue;
   font-family: sans-serif;
+}
+.work img {
+  height: 50%;
+  width: 30%;
+}
+button {
+  background-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  font-family: cursive;
+  border-radius: 15px;
 }
