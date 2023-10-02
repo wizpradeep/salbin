@@ -8,7 +8,6 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  /* padding: 0; */
 }
 
 body::before {
@@ -29,7 +28,7 @@ body::before {
   width: 100%;
   height: 100%;
   display: flex;
-  height: 60vh;
+
   flex-direction: column;
   justify-content: space-between;
 }
@@ -37,7 +36,6 @@ body::before {
 nav {
   display: flex;
   align-items: center;
-  /* padding: 20px; */
   justify-content: space-between;
 }
 
@@ -53,7 +51,6 @@ nav ul li a {
   font-size: 18px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  /* padding: 1px; */
   transition: 0.2s;
 }
 .fa-bars {
@@ -82,13 +79,13 @@ nav ul li a:hover {
 
 .body {
   width: 100%;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .my_name {
-  /* padding: 0px 4px; */
   color: white;
   font-size: 40px;
   font-weight: bolder;
@@ -102,59 +99,6 @@ nav ul li a:hover {
 
 .myNameIsSalbin {
   color: #ed9aff;
-}
-
-/* Responsive Styles */
-@media (max-width: 800px) {
-  ul {
-    width: 60%;
-  }
-  .H_name {
-    font-size: 30px;
-  }
-
-  .design {
-    font-size: 20px;
-  }
-  nav {
-    justify-content: space-between;
-  }
-}
-
-@media (max-width: 600px) {
-  nav {
-    /* padding: 2px; */
-  }
-  .main {
-    height: 40vh;
-  }
-  .H_name {
-    font-size: 28px;
-  }
-  ul {
-    display: none;
-  }
-  .fa-bars {
-    color: white;
-  }
-  .my_name {
-    font-size: 30px;
-  }
-  .design {
-    font-size: 25px;
-  }
-}
-
-@media (max-width: 500px) {
-  nav {
-    /* padding: 2px; */
-  }
-  .my_name {
-    font-size: 25px;
-  }
-  .design {
-    font-size: 20px;
-  }
 }
 
 .dropDown {
@@ -203,4 +147,79 @@ nav ul li a:hover {
   text-shadow: 2px 2px 2px black;
   cursor: pointer;
   color: red;
+}
+
+.bottom {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.info a {
+  color: white;
+  margin: 5px;
+  font-size: 2rem;
+}
+.info a :hover {
+  color: red;
+  scale: 1.2;
+}
+
+/* Responsive Styles */
+@media (max-width: 800px) {
+  ul {
+    width: 60%;
+  }
+  .H_name {
+    font-size: 30px;
+  }
+
+  .design {
+    font-size: 20px;
+  }
+  nav {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 600px) {
+  .H_name {
+    font-size: 28px;
+  }
+  ul {
+    display: none;
+  }
+  .fa-bars {
+    color: white;
+  }
+  .my_name {
+    font-size: 30px;
+  }
+  .design {
+    font-size: 25px;
+  }
+  .info a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .my_name {
+    font-size: 25px;
+  }
+  .design {
+    font-size: 20px;
+  }
 }
